@@ -13,6 +13,7 @@
 # It still isn't perfectly robust, i.e. if radical changes are made
 # to the underlying lib this stuff will need updating.
 
+require 'delegate'
 require 'net/http'
 
 module Net
